@@ -26,7 +26,7 @@ Self-Driving Car Engineer Nanodegree Program
 
 ## Results
 
-- ![Driving at low speed](https://youtu.be/ONzgCbXSA-A)
+[![Driving at low speed for comfortability](https://i.ytimg.com/vi/ONzgCbXSA-A/1.jpg?time=1498966911247)](https://youtu.be/ONzgCbXSA-A)
 
 ## Dependencies
 
