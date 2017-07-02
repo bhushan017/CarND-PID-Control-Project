@@ -13,16 +13,16 @@ Self-Driving Car Engineer Nanodegree Program
 * Describe how the final hyperparameters were chosen.
 
 
-The hyperparameters were tuned manually based on the visual observations from the simulations. In order to quickly tune the PID values command line argument were used. After several rounds of tuning the gains found were: Kp=0.1, Ki=0.005, Kd=4.0
+  The hyperparameters were tuned manually based on the visual observations from the simulations. In order to quickly tune the PID   values command line argument were used. After several rounds of tuning the gains found were: Kp=0.1, Ki=0.005, Kd=4.0
 
-To execute the program run the following command:
+  To execute the program run the following command:
 
-```
-./pid <Kp> <Ki> <Kd>
-```
-Example: `./pid 0.1 0.005 4.0`
+  ```
+  ./pid <Kp> <Ki> <Kd>
+  ```
+  Example: `./pid 0.1 0.005 4.0`
 
-The approach used for tuning was to first find a value of Kp such that the car to the oscillated around the center lane. Then Kd was tuned to reduced oscillation and then Ki to reduce CTE.
+  The approach used for tuning was to first find a value of Kp such that the car to the oscillated around the center lane. Then Kd was tuned to reduced oscillation and then Ki to reduce CTE.
 
 ## Dependencies
 
