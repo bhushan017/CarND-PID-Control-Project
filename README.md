@@ -11,6 +11,8 @@ Self-Driving Car Engineer Nanodegree Program
   * The D, or "differential" reduces the oscillation caused by P and eventully the car approachs the center line smoothly.
 
 * Describe how the final hyperparameters were chosen.
+
+
 The hyperparameters were tuned manually based on the visual observations from the simulations. In order to quickly tune the PID values command line argument were used. After several rounds of tuning the gains found were: Kp=0.1, Ki=0.005, Kd=4.0
 
 To execute the program run the following command:
