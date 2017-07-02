@@ -24,9 +24,9 @@ Self-Driving Car Engineer Nanodegree Program
 
   The approach used for tuning was to first find a value of Kp such that the car to the oscillated around the center lane. Then Kd was tuned to reduced oscillation and then Ki to reduce CTE.
 
-## Results
+## Simulator Video
 
-[![Driving at low speed for comfortability](https://i.ytimg.com/vi/ONzgCbXSA-A/1.jpg?time=1498966911247)](https://youtu.be/ONzgCbXSA-A)
+[![PID Video](https://i.ytimg.com/vi/ONzgCbXSA-A/1.jpg?time=1498966911247)](https://youtu.be/ONzgCbXSA-A)
 
 ## Dependencies
 
